@@ -5,7 +5,7 @@ function breakOut(array, changeValue, stopValue) {
       array[i] = noChange; // removes value
       break;
     }
-    array[i] += changeValue;
+    array[i] = changeValue;
     
   }
   return array; // return mutated array
