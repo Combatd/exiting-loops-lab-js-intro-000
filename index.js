@@ -1,6 +1,8 @@
 function breakOut(array, changeValue, stopValue) {
   for(var i = 0; i < array.length; i+=1) {
+    let noChange = null  ;
     if (i === stopValue) { 
+      array[i] = noChange; // removes value
       break;
     }
     array[i] += changeValue;
