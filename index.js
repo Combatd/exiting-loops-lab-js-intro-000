@@ -20,3 +20,7 @@ function keepGoing(array, changeValue, skipValue) {
   }
   return array; // return the array
 }
+
+function findBy(array, findFn) {
+  
+}
