@@ -25,7 +25,7 @@ function findBy(array, findFn) {
   let found = null; // default value
   for (let i = 0; i < array.length; i++) {
     if (array[i] === findFn) {
-      found = array[i];
+      return found = array[i];
     }
   }
   return found;
