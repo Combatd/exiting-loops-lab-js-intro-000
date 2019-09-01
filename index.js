@@ -1,9 +1,9 @@
 function breakOut(array, changeValue, stopValue) {
   for(var i = 0; i < stopValue; i+=1) {
     if (i == stopValue) { 
-      
+      break;
     }
-    
+    array[i] = changeValue;
     
   }
   return array; // return mutated array
