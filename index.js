@@ -1,6 +1,6 @@
 function breakOut(array, changeValue, stopValue) {
   for(var i = 0; i < stopValue; i+=1) {
-    if (i !== stopValue) { 
+    if (i == stopValue) { 
       array[i] = changeValue;
     }
     
