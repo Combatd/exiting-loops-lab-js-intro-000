@@ -3,8 +3,8 @@ function breakOut(array, changeValue, stopValue) {
     if (i !== stopValue) { 
       array[i] = changeValue;
     }
-      break;
     
+    break;
   }
   return array; // return mutated array
 }
